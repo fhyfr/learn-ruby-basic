@@ -9,7 +9,7 @@ user_age_integer = user_age.to_i
 
 # check if user age is more than 150 years
 if user_age_integer > 150
-    print "Your input is invalid, the input should be in years format"
+  print "Your input is invalid, the input should be in years format"
 end
 
 puts "Your age is #{user_age_integer} years old."
