@@ -12,10 +12,10 @@ def square_area(side)
     return side * side
 end
 
-squareAreaA = square_area(4)
-squareAreaB = square_area(3)
-puts "Area of A square is #{squareAreaA}"
-puts "Area of B square is #{squareAreaA}"
+square_area_A = square_area(4)
+square_area_B = square_area(3)
+puts "Area of A square is #{square_area_A}"
+puts "Area of B square is #{square_area_B}"
 
 # rest or splat parameters (*) in ruby
 def order_pizza(*pizzas)

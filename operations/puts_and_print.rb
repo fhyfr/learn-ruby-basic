@@ -4,16 +4,16 @@
 
 
 # example of puts
-firstName, lastName = "Firman", "Sah"
+first_name, last_name = "Firman", "Sah"
 
 # the output is
 # Firman
 # Sah
-puts firstName
-puts lastName
+puts first_name
+puts last_name
 
 # example of print
 # the output is
 # FirmanSah
-print firstName
-print lastName
+print first_name
+print last_name
