@@ -1,21 +1,21 @@
 # functions and parameters on ruby
 
 # function without parameters
-def greetings()
+def greetings
     puts "Hello World!"
 end
 
-greetings()
+greetings
 
 # function with parameters
 def square_area(side)
-    return side * side
+    side * side
 end
 
-square_area_A = square_area(4)
-square_area_B = square_area(3)
-puts "Area of A square is #{square_area_A}"
-puts "Area of B square is #{square_area_B}"
+square_area_a = square_area(4)
+square_area_b = square_area(3)
+puts "Area of A square is #{square_area_a}"
+puts "Area of B square is #{square_area_b}"
 
 # rest or splat parameters (*) in ruby
 def order_pizza(*pizzas)
